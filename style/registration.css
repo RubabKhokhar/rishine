@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 137rem;
+    margin: 0 auto;
+
+}
+p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #cf7500;
+}
+h1{
+    font-size: 4.8rem;
+    font-weight: 800;
+    color: #cf7500;
+}
+h2{
+    font-size: 3.9rem;
+    font-weight: 700;
+    color: #cf7500;
+}
+h3{
+    font-size: 3.1rem;
+    font-weight: 600;
+    color: #cf7500;
+}
+h4{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #cf7500;
+}
+h5{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #cf7500;
+}
+.button{
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.6rem;
+    color:white;
+    border: 2px solid transparent;
+}
+.button-p{
+    background-color: #cf7500;
+    border: 2px solid transparent;
+}
+.button-p:hover{
+    background-color: transparent;
+    border: 2px solid #cf7500;
+    color:#cf7500;
+}
+.button-s{
+    background-color: black;
+    border: 2px solid black;
+}
+.button-s:hover{
+    background-color: transparent;
+    border:  2x solid black;
+    color:black;
+}
+.button-t{
+    background-color: #cf7500;
+    border: 2px solid white;
+    color: white;
+}
+/* header styling */
+.top-bar{
+    display: flex;
+    height: 6rem;
+    border-bottom: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.top-bar .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-between; 
+     justify-items: center;
+}
+.icons , .mail , .number{
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 1rem;
+    
+}
+.icons .mail{
+    border-left: 2px solid white;
+    }
+.icons .fa .fas ,.fab{
+    font-size: 1.6rem;
+    margin-right: 5px;
+    padding: 1rem;   
+}
+.link{
+    font-size: 1.6rem;
+    color: white;
+}
+.item{
+    margin-right: 3rem;
+     padding: 1rem;   
+}
+ul{
+    list-style: none;
+}
+.items{
+    display: flex;
+}
+.mail, .number{
+    color: white;
+}
+/* Nav Bar Styling*/
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-container{
+    height: 20rem; 
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    align-items: center;
+    background-color: #cf7500;  
+}
+.menu-items a{
+    font-size: 1.6rem;
+    color: white;
+    padding: 0, 3rem;
+    margin-right: 5rem;
+}
+.registration-container{
+    height: 20rem;
+}
+.registration-items{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    color: #cf7500;
+}
+.registration{
+    background-color:#dbdbdb;
+}
+/* form styling*/
+.input-fields{
+color: #cf7500;
+padding-top: 8rem;
+
+
+}
+input[type=text]{
+    border: 2px solid #cf7500;
+    
+}
+input[type=date]{
+    border: 2px solid #cf7500;
+}
+input[type=tel]{
+    border: 2px solid #cf7500;
+}
+input[type=email]{
+    border: 2px solid #cf7500;
+}
+input[type=SUBMIT]{
+    border: 2px solid #cf7500;
+}
+input[type=RESET]{
+    border: 2px solid #cf7500;
+}
+
+/* Footer styling*/
+.primary-footer{
+    background-color: #cf7500;
+    color: white;
+    padding: 8rem 0;
+}
+.footer-parts{
+    display: flex;
+    justify-content: space-between;
+}
+.parts-item{
+    flex-basis: 40%;
+}
+
+.widgets a{
+    font-size: 1.6rem;
+    color: white;
+}
+
+.secondary-footer{
+    background-color: black;
+    text-align: center;
+    height: 3rem;
+    color: white;
+    display: flex;
+    
+
+}
+#footer{
+    margin-top: 10rem;
+}
+.footerparttwo{
+    margin-right: 1rem;
+}
+.subheading-footer{
+    color: white;
+}
