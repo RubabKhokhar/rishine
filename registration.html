@@ -24,46 +24,48 @@
     </div>
     <div class="accounts">
     <ul class="items">
-        <li class="item"><a href="#" class="link">LOGIN</a></li>
-        <li class="item"><a href="#" class="link">SIGNUP</a></li>
+        <li class="item"><a href="/login.html" class="link">LOGIN</a></li>
+        <li class="item"><a href="/signup.html" class="link">SIGNUP</a></li>
         </ul>
     </div>
         </div>
         </div>
+        <div class="navbar">
         <nav class="menu container">
           <div class="logo">
             <img src="" alt="logo">
         </div>
             <ul class="menu-items">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/home.html">Home <span class="sr-only">(current)</span></a>
                   </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Courses
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Our Courses</a>
-                      <a class="dropdown-item" href="#">All Tutors</a>
-                      <a class="dropdown-item" href="#">Find Your Tutor</a>
-                      <a class="dropdown-item" href="#">Become A Tutor</a>
+                      <a class="dropdown-item" href="/courses.html">Our Courses</a>
+                      <a class="dropdown-item" href="/tutor.html">All Tutors</a>
+                      <a class="dropdown-item" href="/registration.html">Find Your Tutor</a>
+                      <a class="dropdown-item" href="/form.html">Become A Tutor</a>
                     </div>
                   </li>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Pages
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">About Us</a>
-                      <a class="dropdown-item" href="#">Gallery</a>
-                      <a class="dropdown-item" href="#">E-Books</a>
+                      <a class="dropdown-item" href="/about.html">About Us</a>
+                      <a class="dropdown-item" href="/gallery.html">Gallery</a>
+                      <a class="dropdown-item" href="/ebooks.html">E-Books</a>
                     </div>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/contact.html">Contact Us <span class="sr-only">(current)</span></a>
                   </li>
                </ul>
              </nav>
+             </div>
              <div class="registration container">
               <ul class="registration-items">
             <li>  <h3>Student Registration Form</h3></li>
@@ -76,7 +78,7 @@
         <div class="form-content">
            
             
-<FORM METHOD="POST" ACTION="http://www.rishine.com">
+<FORM METHOD="POST" ACTION="">
     <div class="input-fields">
         <h2><u>Personal Details:</u></h2><br>
 <label for="fname">First name:</label>
@@ -96,7 +98,7 @@
   <input type="radio" id="female" name="gender" value="female">
   <label for="female">Female</label>&nbsp
   <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Other</label> &nbsp &nbsp &nbsp &nbsp
+  <label for="other">Other</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
   <label for="age">Age:</label>
 <input type="text" id="age" name="age"> 
 <br>
@@ -122,6 +124,33 @@
 <br>
 <br>
 <h2><u>Find Your Tutor:</u></h2><br>
+<label>Select Subject:
+  <input list="subjects" id="subject" name="mySubject" /></label>
+  <datalist id="subjects">
+    <option value="Computer Science">
+    <option value="Coding">
+    <option value="Law">
+    <option value="History">
+    <option value="Literature">
+    <option value="Chemistry">
+      <option value="Accounting">
+        <option value="Marketing">
+          <option value="Architecture">
+            <option value="Psychology">
+              <option value="Networking">
+                <option value="Database Systems">
+                  <option value="Mathematics">
+                  <option value="Bio Sciences">
+                    <option value="Space Science">
+                      <option value="Entreprenuership">
+                      <option value="Art">
+                        <option value="Environmental Sciences">
+                      
+  </datalist>&nbsp &nbsp &nbsp &nbsp
+  <label for="city">Enter City:</label>
+<input type="text" id="city" name="city">
+<br>
+  <br>
 <label for="file"><b>Attach your profile Photo:</b></label>
 <input type="file" id="file" name="file">
 <br>
@@ -152,9 +181,9 @@
         <div class="widgets">
             <h4>Useful Links</h4>
             <ul class="list">
-            <li><a href="#">Courses</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Contact Us</a></li>
+            <li><a href="/courses.html">Courses</a></li>
+                <li><a href="/home.html">Pages</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
             </ul>
         </div>
         <div class="widgets">

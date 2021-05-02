@@ -149,6 +149,9 @@ ul{
     padding: 0, 3rem;
     margin-right: 5rem;
 }
+.navbar{
+    background-color: #cf7500;
+}
 /* Hero Sec Styling*/
 .hero-section{
     
@@ -158,16 +161,15 @@ ul{
     color: #cf7500;
     background-size: cover;
     background-position: center;
-    background-image: url("/img/about.jpg");
+    background-image: url("/img/bout.jpg");
     background-repeat: no-repeat;
     height: 1000px;
 }
 .hero-area{
-    padding-top: 40rem;
+    padding-top: 28rem;
     text-align: left;
-    
-
 }
+
 /* History Section Styling */
 .history-section{
     background-color: #cf7500;
@@ -200,9 +202,27 @@ ul{
     padding-top: 8rem;
     color: #cf7500;
 }
+.dot{
+    height: 15rem;
+    width: 15rem;
+    background-color: #cf7500;
+    border-radius: 50rem;
+    display: inline-block;
+    color: white;
+    margin-right: 3rem;
+    margin-top: 5rem;
+    text-align: center;
+    padding-top: 6rem;
+}
+.steps-content .fas{
+    font-size: 4rem;
+}
 .journeytitle{
     padding-top: 5rem;
 }
+.button .button-p{
+    padding: 0.5rem 3rem 0.5rem 3rem; 
+} 
 /* Footer styling*/
 .primary-footer{
     background-color: #cf7500;
@@ -241,3 +261,4 @@ ul{
 .subheading-footer{
     color: white;
 }
+

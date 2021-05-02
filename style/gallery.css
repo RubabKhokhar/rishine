@@ -130,6 +130,9 @@ ul{
     color: white;
 }
 /* Nav Bar Styling*/
+.navbar{
+    background-color: #cf7500;
+}
 .menu-items{
     display: flex;
     justify-content: space-between;
@@ -162,6 +165,20 @@ ul{
 }
 .gallery{
     background-color:#dbdbdb;
+}
+.fas{
+    color: #cf7500;
+}
+.pics-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8rem;
+}
+.pics-items2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* footer styling*/ 
 .primary-footer{
@@ -200,14 +217,4 @@ ul{
 .subheading-footer{
     color: white;
 }
-.pics-items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 8rem;
-}
-.pics-items2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+

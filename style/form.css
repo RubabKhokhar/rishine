@@ -149,6 +149,9 @@ ul{
     padding: 0, 3rem;
     margin-right: 5rem;
 }
+.navbar{
+    background-color: #cf7500;
+}
 /* Gallery container styling*/
 .form-container{
     height: 20rem;
@@ -171,20 +174,28 @@ padding-top: 8rem;
 }
 input[type=text]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
 }
 input[type=tel]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
 }
 input[type=email]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
 }
 input[type=SUBMIT]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    background-color: white;
+    color: #cf7500;
 }
 input[type=RESET]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    background-color: white;
+    color: #cf7500;
 }
-
 /* Footer styling*/
 .primary-footer{
     background-color: #cf7500;

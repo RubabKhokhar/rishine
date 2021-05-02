@@ -150,6 +150,9 @@ ul{
     padding: 0, 3rem;
     margin-right: 5rem;
 }
+.navbar{
+    background-color: #cf7500;
+}
 /* heading bar styling*/
 .dp-container{
     height: 20rem;

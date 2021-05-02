@@ -170,22 +170,38 @@ padding-top: 8rem;
 }
 input[type=text]{
     border: 2px solid #cf7500;
-    
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    color: #cf7500;
 }
 input[type=date]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    color: #cf7500;
 }
 input[type=tel]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    color: #cf7500;
 }
 input[type=email]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    color: #cf7500;
 }
 input[type=SUBMIT]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    background-color: white;
 }
 input[type=RESET]{
     border: 2px solid #cf7500;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    background-color: white;
+}
+#subject{
+    border: 2px solid #cf7500;
+height: 3rem;
+padding-left: 5rem;
 }
 
 /* Footer styling*/
@@ -224,4 +240,7 @@ input[type=RESET]{
 }
 .subheading-footer{
     color: white;
+}
+.navbar{
+    background-color: #cf7500;
 }

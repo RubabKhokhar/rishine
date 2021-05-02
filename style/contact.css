@@ -149,6 +149,9 @@ ul{
     padding: 0, 3rem;
     margin-right: 5rem;
 }
+.navbar{
+    background-color: #cf7500;
+}
 /* Hero Sec Styling*/
 .hero-section{
     
@@ -184,6 +187,9 @@ ul{
 .input{
     text-align: center;
     padding-top: 5rem;
+}
+.input .button-p{
+    padding: 0.5rem 35rem 0.5rem 35rem;
 }
 #sub, #name, #email, #msg{
     border: 2px solid #cf7500;
@@ -235,3 +241,4 @@ ul{
 .subheading-footer{
     color: white;
 }
+
